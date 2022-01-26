@@ -60,7 +60,7 @@ def main():
     '''
     #1.place the ImageNetLabels.txt file and set the path accordingly
     Download from the following link
-    https://github.com/SaralaSewwandi/image_net_dataset/blob/main/ImageNetLabels.txt
+    https://github.com/SaralaSewwandi/ResNet101_InferenceValidation_Tensorflow1.15/blob/main/ImageNetLabels.txt
     '''
     imagenet_class_ids = np.loadtxt("D:\\ImageNetLabels.txt", usecols=0, dtype=str)
 
